@@ -1179,6 +1179,7 @@ color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
 color colorAccent
+color colorGray
 color colorPrimary
 color colorPrimaryDark
 color common_google_signin_btn_text_dark
@@ -2245,9 +2246,6 @@ id add3
 id add4
 id adjust_height
 id adjust_width
-id album_drawer
-id album_gridview
-id album_menuBtn
 id alertTitle
 id aligned
 id all
@@ -2297,6 +2295,7 @@ id chains
 id chat_tab
 id chats_list
 id check_box
+id check_button
 id check_image
 id checkbox
 id checked
@@ -2334,6 +2333,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete
 id delete_button_iv
 id deltaRelative
 id dependency_ordering
@@ -2425,6 +2425,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView3
 id immediateStop
 id included
 id info
@@ -2432,6 +2433,11 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id join_button
+id join_email
+id join_name
+id join_password
+id join_pwck
 id jumpToEnd
 id jumpToStart
 id kakaoLoginBtn
@@ -2450,6 +2456,9 @@ id liveButton
 id loginBtn
 id loginId
 id loginPassword
+id login_button
+id login_email
+id login_password
 id main_layout
 id manBtn
 id masked
@@ -2673,6 +2682,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2794,11 +2804,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_join
 layout activity_login
 layout activity_main
 layout activity_object_detection
 layout activity_talk_auth_code
-layout album
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3809,6 +3819,8 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style defaultButton
+style urgentButton
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

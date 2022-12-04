@@ -105,6 +105,8 @@ public class Login extends AppCompatActivity {
                 else {
                     // 다음 딥러닝 페이지로 이동하도록 수정
                     Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_LONG).show();
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(intent);
                 }
             }
         });

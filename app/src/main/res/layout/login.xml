@@ -67,6 +67,15 @@
                 />
 
             <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_loginbtn"
+                android:text="Log in"
+                android:textColor="@color/white" />
+
+            <Button
                 android:id="@+id/signupBtn"
                 android:layout_width="58dp"
                 android:layout_height="20dp"
@@ -76,16 +85,6 @@
                 android:text="Sign up"
                 android:textColor="@color/skyblue"
                 android:textSize="10dp" />
-
-            <Button
-                android:id="@+id/loginBtn"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="20dp"
-                android:text="Log in"
-                android:textColor="@color/white"
-                android:background="@drawable/login_loginbtn"
-                />
 
             <ImageButton
                 android:id="@+id/kakaoLoginBtn"
