@@ -1,9 +1,8 @@
-org/pytorch/demo/objectdetection/Login.java
- org.pytorch.demo.objectdetection.Login
- org.pytorch.demo.objectdetection.Login$1
- org.pytorch.demo.objectdetection.Login$2
- org.pytorch.demo.objectdetection.Login$3
- org.pytorch.demo.objectdetection.Login$4
+org/pytorch/demo/objectdetection/ValidateRequest.java
+ org.pytorch.demo.objectdetection.ValidateRequest
+org/pytorch/demo/objectdetection/ObjectDetectionActivity.java
+ org.pytorch.demo.objectdetection.ObjectDetectionActivity
+ org.pytorch.demo.objectdetection.ObjectDetectionActivity$AnalysisResult
 org/pytorch/demo/objectdetection/BaseModuleActivity.java
  org.pytorch.demo.objectdetection.BaseModuleActivity
 org/pytorch/demo/objectdetection/LoginActivity.java
@@ -11,21 +10,14 @@ org/pytorch/demo/objectdetection/LoginActivity.java
  org.pytorch.demo.objectdetection.LoginActivity$1
  org.pytorch.demo.objectdetection.LoginActivity$2
  org.pytorch.demo.objectdetection.LoginActivity$2$1
-org/pytorch/demo/objectdetection/ObjectDetectionActivity.java
- org.pytorch.demo.objectdetection.ObjectDetectionActivity
- org.pytorch.demo.objectdetection.ObjectDetectionActivity$AnalysisResult
-org/pytorch/demo/objectdetection/kakaoApplication.java
- org.pytorch.demo.objectdetection.kakaoApplication
 org/pytorch/demo/objectdetection/RegisterRequest.java
  org.pytorch.demo.objectdetection.RegisterRequest
+org/pytorch/demo/objectdetection/kakaoApplication.java
+ org.pytorch.demo.objectdetection.kakaoApplication
 org/pytorch/demo/objectdetection/LoginRequest.java
  org.pytorch.demo.objectdetection.LoginRequest
-org/pytorch/demo/objectdetection/RegisterActivity.java
- org.pytorch.demo.objectdetection.RegisterActivity
- org.pytorch.demo.objectdetection.RegisterActivity$1
- org.pytorch.demo.objectdetection.RegisterActivity$1$1
- org.pytorch.demo.objectdetection.RegisterActivity$2
- org.pytorch.demo.objectdetection.RegisterActivity$2$1
+org/pytorch/demo/objectdetection/AbstractCameraXActivity.java
+ org.pytorch.demo.objectdetection.AbstractCameraXActivity
 org/pytorch/demo/objectdetection/myDBHelper.java
  org.pytorch.demo.objectdetection.myDBHelper
 org/pytorch/demo/objectdetection/PrePostProcessor.java
@@ -44,10 +36,12 @@ org/pytorch/demo/objectdetection/MainActivity.java
  org.pytorch.demo.objectdetection.MainActivity$5
 org/pytorch/demo/objectdetection/ResultView.java
  org.pytorch.demo.objectdetection.ResultView
-org/pytorch/demo/objectdetection/AbstractCameraXActivity.java
- org.pytorch.demo.objectdetection.AbstractCameraXActivity
-org/pytorch/demo/objectdetection/ValidateRequest.java
- org.pytorch.demo.objectdetection.ValidateRequest
+org/pytorch/demo/objectdetection/Login.java
+ org.pytorch.demo.objectdetection.Login
+ org.pytorch.demo.objectdetection.Login$1
+ org.pytorch.demo.objectdetection.Login$2
+ org.pytorch.demo.objectdetection.Login$3
+ org.pytorch.demo.objectdetection.Login$4
 org/pytorch/demo/objectdetection/Signup.java
  org.pytorch.demo.objectdetection.Signup
  org.pytorch.demo.objectdetection.Signup$1
@@ -59,3 +53,9 @@ org/pytorch/demo/objectdetection/Signup.java
  org.pytorch.demo.objectdetection.Signup$7
  org.pytorch.demo.objectdetection.Signup$8
  org.pytorch.demo.objectdetection.Signup$9
+org/pytorch/demo/objectdetection/RegisterActivity.java
+ org.pytorch.demo.objectdetection.RegisterActivity
+ org.pytorch.demo.objectdetection.RegisterActivity$1
+ org.pytorch.demo.objectdetection.RegisterActivity$1$1
+ org.pytorch.demo.objectdetection.RegisterActivity$2
+ org.pytorch.demo.objectdetection.RegisterActivity$2$1

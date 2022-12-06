@@ -58,7 +58,7 @@ public class Login extends AppCompatActivity {
         // login layout
         EditText editId1, editId2;
         Button signupBtn, findBtn, loginBtn;
-        ImageButton kakaoLoginBtn, googleBtn;
+        ImageButton kakaoLoginBtn, googleLoginBtn;
 
         editId1 = findViewById(R.id.loginId);
         editId2 = findViewById(R.id.loginPassword);
@@ -66,7 +66,7 @@ public class Login extends AppCompatActivity {
         signupBtn = findViewById(R.id.signupBtn);
         loginBtn = findViewById(R.id.loginBtn);
         kakaoLoginBtn = findViewById(R.id.kakaoLoginBtn);
-        googleBtn = findViewById(R.id.googleLoginBtn);
+        googleLoginBtn = findViewById(R.id.googleLoginBtn);
 
         // kakao login
 //        nickName = findViewById(R.id.kakaoNickname);
@@ -131,9 +131,10 @@ public class Login extends AppCompatActivity {
                 .build();
         GoogleSignInClient mGoogleSignInClient = GoogleSignIn.getClient(Login.this, gso);
 
-        googleBtn.setOnClickListener(new View.OnClickListener() {
+        googleLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("Login", "sibal");
                 Intent signInIntent = mGoogleSignInClient.getSignInIntent();
                 startActivityForResult(signInIntent, RC_SIGN_IN);
             }
